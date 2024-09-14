@@ -37,7 +37,7 @@ export default function FarmConnect() {
           <Link href="/produce" className="block">
             <FeatureCard
               icon={<ShoppingBag className="h-8 w-8" />}
-              title="List and Buy Produce"
+              title="Buy Produce"
               description="Farmers can list their produce, and consumers can browse and purchase directly."
             />
           </Link>
@@ -49,27 +49,7 @@ export default function FarmConnect() {
               description="Join a community of farmers to share knowledge and experiences."
             />
           </Link>
-          <Link href="/dairy" className="block">
-            <FeatureCard
-              icon={<Milk className="h-8 w-8" />}
-              title="Dairy Products"
-              description="Explore a wide range of fresh dairy products from local farmers."
-            />
-          </Link>
-          <Link href="/nearby" className="block">
-            <FeatureCard
-              icon={<MapPin className="h-8 w-8" />}
-              title="Find Nearby Farmers"
-              description="Discover and connect with farmers in your local area."
-            />
-          </Link>
-          <Link href="/rate" className="block">
-            <FeatureCard
-              icon={<Star className="h-8 w-8" />}
-              title="Rate Farmers"
-              description="Share your experience and help others by rating farmers."
-            />
-          </Link>
+          
         </section>
       </main>
 

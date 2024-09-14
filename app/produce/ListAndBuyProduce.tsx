@@ -66,7 +66,7 @@ export default function BrowseProduce() {
       harvestDate: "2023-08-15",
       quality: "A-Grade",
       description: "Fresh, juicy organic tomatoes grown without pesticides.",
-      image: "https://v0.dev/public/placeholder-images/tomatoes.jpg",
+      image: "https://www.almanac.com/sites/default/files/image_nodes/tomatoes_helios4eos_gettyimages-edit.jpeg",
       category: "Vegetable"
     },
     {
@@ -84,26 +84,8 @@ export default function BrowseProduce() {
       harvestDate: "2023-09-01",
       quality: "Premium",
       description: "Crisp and sweet golden apples, perfect for snacking or baking.",
-      image: "https://v0.dev/public/placeholder-images/apples.jpg",
+      image: "https://th.bing.com/th/id/OIP.HySrCJe7ATbkNjvwko8rwQHaIZ?rs=1&pid=ImgDetMain",
       category: "Fruit"
-    },
-    {
-      id: 3,
-      name: "Organic Quinoa",
-      farmer: {
-        name: "Mike Johnson",
-        rating: 4.2,
-        contact: "+1122334455"
-      },
-      farm: "Grainy Goodness",
-      area: "Colorado",
-      cost: 5.99,
-      quantity: 300,
-      harvestDate: "2023-08-30",
-      quality: "Organic",
-      description: "Nutrient-rich quinoa, perfect for salads and side dishes.",
-      image: "https://v0.dev/public/placeholder-images/quinoa.jpg",
-      category: "Grain"
     },
     {
       id: 4,
@@ -120,7 +102,7 @@ export default function BrowseProduce() {
       harvestDate: "2023-08-10",
       quality: "Fresh",
       description: "Crisp and nutritious spinach leaves, great for salads and cooking.",
-      image: "https://v0.dev/public/placeholder-images/spinach.jpg",
+      image: "https://th.bing.com/th/id/OIP.MIhh6wGi3kXh6m0sAzOhhAHaIl?rs=1&pid=ImgDetMain",
       category: "Vegetable"
     },
     {
@@ -138,7 +120,7 @@ export default function BrowseProduce() {
       harvestDate: "2023-08-20",
       quality: "Raw",
       description: "Pure, unfiltered wildflower honey with a rich, complex flavor.",
-      image: "https://v0.dev/public/placeholder-images/honey.jpg",
+      image: "https://th.bing.com/th/id/OIP.Nw2bkM_3UTgn6cjsSV4WsgHaIA?rs=1&pid=ImgDetMain",
       category: "Other"
     }
   ]
