@@ -4,7 +4,7 @@ import React from 'react'
 import { Search, Tractor, ShoppingBag } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-
+import Link from 'next/link'
 export default function MainPage() {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-b from-green-100 to-green-200">
@@ -30,16 +30,20 @@ export default function MainPage() {
           <p className="text-xl text-gray-600 mb-12">Bridging the gap between farmers and consumers</p>
           
           <div className="flex justify-center gap-8 mb-12">
+          <Link href="/produce" className="block">
             <UserTypeCard 
               icon={<ShoppingBag className="h-16 w-16 mb-4 text-green-600" />}
               title="I'm a Customer"
               description="Find fresh produce and connect with local farmers"
             />
+            </Link>
+            <Link href="/produce" className="block">
             <UserTypeCard 
               icon={<Tractor className="h-16 w-16 mb-4 text-green-600" />}
               title="I'm a Farmer"
               description="List your produce and reach more customers"
             />
+            </Link>
           </div>
 
           <div className="max-w-2xl mx-auto">
