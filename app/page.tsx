@@ -1,9 +1,9 @@
 
-import FarmConnect from "./FarmConnect";
+import Mainpage from "./main-page";
 export default function Home() {
   return (
     <>
-    <FarmConnect />
+      <Mainpage />
     </>
   );
 }
