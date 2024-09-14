@@ -37,7 +37,7 @@ export default function MainPage() {
               description="Find fresh produce and connect with local farmers"
             />
             </Link>
-            <Link href="/" className="block">
+            <Link href="/authgit " className="block">
             <UserTypeCard 
               icon={<Tractor className="h-16 w-16 mb-4 text-green-600" />}
               title="I'm a Farmer"
